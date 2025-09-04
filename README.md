@@ -1,118 +1,101 @@
 # 🎭 Sixth Floor Jokes
+A web application for managing and sharing jokes, developed with Next.js and TypeScript.
 
-Uma aplicação web para gerenciar e compartilhar piadas, desenvolvida com Next.js e TypeScript.
+## ✨ Features
+- **Find Jokes**: Search for jokes by identification number
+- **Joke Counter**: System to count how many times each joke has been told
+- **Responsive Interface**: Adaptive design for different screen sizes
+- **RESTful API**: Endpoints for managing jokes
 
-## ✨ Funcionalidades
-
-- **Buscar Piadas**: Pesquise piadas por número de identificação
-- **Contador de Piadas**: Sistema para contar quantas vezes cada piada foi contada
-- **Interface Responsiva**: Design adaptável para diferentes tamanhos de tela
-- **API RESTful**: Endpoints para gerenciar piadas
-
-## 🚀 Tecnologias Utilizadas
-
+## 🚀 Technologies Used
 - **Frontend**: Next.js 14, React, TypeScript
-- **Estilização**: Tailwind CSS
-- **Backend**: API Routes do Next.js
-- **Banco de Dados**: Sistema de dados integrado
-- **Deploy**: Vercel (recomendado)
+- **Styling**: Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: Integrated data system
+- **Deploy**: Vercel (recommended)
 
-## 📋 Pré-requisitos
-
+## 📋 Prerequisites
 - Node.js 18+
-- npm, yarn ou pnpm
+- npm, yarn or pnpm
 
-## 🛠️ Como Executar
+## 🛠️ How to Run
 
-### 1. Clone o repositório
-
+### 1. Clone the repository
 ```bash
-git clone https://github.com/seu-usuario/sixth-floor-jokes.git
+git clone https://github.com/Ze-brzl/sixth-floor-jokes.git
 cd sixth-floor-jokes
 ```
 
-### 2. Instale as dependências
-
+### 2. Install dependencies
 ```bash
 npm install
-# ou
+# or
 yarn install
-# ou
+# or
 pnpm install
 ```
 
-### 3. Execute o servidor de desenvolvimento
-
+### 3. Run the development server
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
-# ou
+# or
 pnpm dev
 ```
 
-### 4. Acesse a aplicação
+### 4. Access the application
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+## 📱 How to Use
+1. **Home Page**: Navigate through the application
+2. **Find Joke**: Access `/find-joke` and enter the joke number
+3. **New Joke**: Access `/new-joke` to add new jokes
+4. **Counter**: Click "Increase count" to register that the joke was told
 
-## 📱 Como Usar
-
-1. **Página Inicial**: Navegue pela aplicação
-2. **Buscar Piada**: Acesse `/find-joke` e digite o número da piada
-3. **Nova Piada**: Acesse `/new-joke` para adicionar novas piadas
-4. **Contador**: Clique em "Aumentar contagem" para registrar que a piada foi contada
-
-## 🏗️ Estrutura do Projeto
-
+## 🏗️ Project Structure
 ```
 src/
 ├── app/
-│   ├── api/jokes/          # API endpoints para piadas
-│   ├── components/          # Componentes reutilizáveis
-│   ├── find-joke/          # Página de busca de piadas
-│   ├── new-joke/           # Página para adicionar piadas
-│   └── lib/                # Utilitários e configurações
-├── models/                  # Modelos de dados
-└── globals.css             # Estilos globais
+│   ├── api/jokes/          # API endpoints for jokes
+│   ├── components/         # Reusable components
+│   ├── find-joke/         # Joke search page
+│   ├── new-joke/          # Page to add jokes
+│   └── lib/               # Utilities and configurations
+├── models/                # Data models
+└── globals.css           # Global styles
 ```
 
-## 🔧 Scripts Disponíveis
-
-- `npm run dev` - Servidor de desenvolvimento
-- `npm run build` - Build de produção
-- `npm run start` - Servidor de produção
-- `npm run lint` - Verificação de código
+## 🔧 Available Scripts
+- `npm run dev` - Development server
+- `npm run build` - Production build
+- `npm run start` - Production server
+- `npm run lint` - Code verification
 
 ## 🌐 Deploy
 
-### Vercel (Recomendado)
+### Vercel (Recommended)
+1. Connect your GitHub repository to Vercel
+2. Deploy will be automatic with each push
+3. Access: [https://vercel.com](https://vercel.com)
 
-1. Conecte seu repositório GitHub ao Vercel
-2. O deploy será automático a cada push
-3. Acesse: [https://vercel.com](https://vercel.com)
+### Other Platforms
+- **Netlify**: Compatible with Next.js
+- **Railway**: Simple and fast deploy
+- **AWS/GCP**: For enterprise projects
 
-### Outras Plataformas
+## 🤝 Contributing
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- **Netlify**: Compatível com Next.js
-- **Railway**: Deploy simples e rápido
-- **AWS/GCP**: Para projetos empresariais
+## 📄 License
+This project is under the MIT license. See the `LICENSE` file for more details.
 
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 👨‍💻 Autor
-
-**Seu Nome** - [GitHub](https://github.com/seu-usuario)
+## 👨‍💻 Author
+**Ze-brzl** - [GitHub](https://github.com/Ze-brzl)
 
 ---
-
-⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+⭐ If this project helped you, consider giving it a star in the repository!
